@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        return when (item!!.itemId) {
+        return when (item?.itemId) {
             R.id.menu_test_view -> {
                 startActivity(Intent(this, AnkoSampleActivity::class.java).setAction(Intent.ACTION_VIEW))
                 true
