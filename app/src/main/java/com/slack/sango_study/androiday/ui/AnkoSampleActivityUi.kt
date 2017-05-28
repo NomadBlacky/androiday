@@ -8,7 +8,7 @@ import org.jetbrains.anko.textView
 import org.jetbrains.anko.verticalLayout
 
 /**
- * Created by blacky on 17/05/21.
+ * An example that using Anko.
  */
 class AnkoSampleActivityUi : AnkoComponent<AnkoSampleActivity> {
     override fun createView(ui: AnkoContext<AnkoSampleActivity>): View = with(ui) {
