@@ -14,4 +14,12 @@
 # class:
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
-#}
+#
+
+# See http://qiita.com/Yuki_312/items/92911800ff6195057de0 :P
+-keep class io.realm.annotations.RealmModule
+-keep @io.realm.annotations.RealmModule class *
+-keep class io.realm.internal.Keep
+-keep @io.realm.internal.Keep class * { *; }
+-dontwarn javax.**
+-dontwarn io.realm.**}
